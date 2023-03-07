@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/LEADERBOARD-hotpink)
 
 # 📖 To Do list
 
@@ -43,8 +43,7 @@ To get a local copy up and running follow these simple example steps.
 ### Install
 Clone this repository to your desired folder:
   cd my-folder
-  git clone https://github.com/mumo-esther/microverse-capstone-1.git
-
+  git clone https://github.com/mumo-esther/Leaderboard.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

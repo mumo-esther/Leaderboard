@@ -71,7 +71,6 @@ To run tests, run the following command:
   ### Future Features
   -Sending and fetching data from the Leaderboard API services
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>

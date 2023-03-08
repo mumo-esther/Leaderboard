@@ -59,11 +59,18 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone https://github.com/mumo-esther/Leaderboard.git
 
+
 ### Run tests
 
 To run tests, run the following command:
   - npx hint .
   - npx eslint .
+
+  ### Key Features
+- Leaderboard page structure
+
+  ### Future Features
+  -Sending and fetching data from the Leaderboard API services
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,6 +107,8 @@ If you like this project you can give it a ⭐️.
 
 ## 📝 License <a name="license"></a>
 
-TThis project is [MIT](./LICENSE) licensed.
+
+This project is [MIT](./LICENSE) licensed.
+
 
 

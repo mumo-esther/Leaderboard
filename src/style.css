@@ -2,10 +2,33 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+  box-sizing: border-box;
+}
+
+h1,
+.title-container,
+.form {
+  border: 0.5rem outset pink;
+  outline: 0.5rem solid rgb(0, 225, 255);
+  box-shadow: 0 0 0 2rem rgb(121, 8, 87);
+  border-radius: 12px;
+  font: bold 1rem sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+}
+
+.list,
+.submit-button,
+.refresh-button {
+  border-radius: 5px 5px 0 0;
+  box-shadow: -1px 1px 5px -1px #f5ebebbf;
+  -webkit-box-shadow: -1px 1px 5px -1px #dbd7d7bf;
+  -moz-box-shadow: -1px 1px 5px -1px #dbd7d7bf;
 }
 
 body {
-  background-color: rgba(27, 77, 83, 0.712);
+  background-color: hsla(347, 15%, 88%, 0.767);
   width: 80%;
   margin: 30px auto 0;
 }
@@ -16,7 +39,10 @@ p {
 
 h1 {
   font-size: 55px;
-  color: #fff;
+  color: rgb(248, 85, 35);
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-style: italic;
 }
 
 main {
@@ -27,6 +53,8 @@ main {
 input {
   margin-bottom: 5%;
   padding: 2% 0;
+  border-radius: 15px;
+  border: 5px solid #d838cb;
 }
 
 .scores,
@@ -45,32 +73,41 @@ input {
   justify-content: space-between;
   align-items: center;
   margin-left: auto;
-  padding: 5px 15px;
 }
 
 .list {
   width: 100%;
+  overflow-y: scroll;
+  height: 50vh;
+  border: 1px solid #dbd7d7bf;
 }
 
 .list li:nth-child(odd),
 .list li:nth-child(even) {
   width: 100%;
+  box-sizing: border-box;
+  border-radius: 15px;
 }
 
 .list li:nth-child(even) {
-  background: #fff;
-  color: #9b9ea0;
+  background: #c5c4c4;
+  color: blue;
+  font-weight: bold;
+  border: 5px solid white;
 }
 
 .list li:nth-child(odd) {
   background: #9b9ea0;
   color: #fff;
+  font-weight: bold;
+  border: 5px solid rgb(76, 0, 255);
 }
 
 .add-title,
 .recent-title {
-  color: #fff;
+  color: rgb(248, 85, 35);
   box-sizing: border-box;
+  margin-left: 5px;
 }
 
 .form {
@@ -85,7 +122,25 @@ input {
 
 .submit-button,
 .refresh-button {
-  width: 20%;
   margin-left: auto;
   margin-top: 2%;
+}
+
+button {
+  display: inline-block;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  border: 4px double #ccc;
+  color: #eee;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #f7c2f9;
 }

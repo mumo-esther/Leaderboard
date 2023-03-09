@@ -26,6 +26,7 @@
 
 # Leaderboard
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service This is built using ES6 and Webpack!
+![screenshot](./src/assets/screenshot.PNG)
 
 **Live Demo**
 
@@ -67,9 +68,9 @@ To run tests, run the following command:
 
   ### Key Features
 - Leaderboard page structure
-
-  ### Future Features
-  -Sending and fetching data from the Leaderboard API services
+- Sending and fetching data from the Leaderboard API services
+ 
+  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
